@@ -7,6 +7,7 @@ GEM
     diff-lcs (1.2.4)
     ffi (1.9.3)
     formatador (0.2.4)
+    gemnasium (2.0.1)
     guard (2.2.2)
       formatador (>= 0.2.4)
       listen (~> 2.1)
@@ -55,6 +56,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  gemnasium
   guard
   guard-bundler
   guard-gitpusher
@@ -62,4 +64,5 @@ DEPENDENCIES
   nokogiri
   rack (~> 1.1)
   rake
+  rb-fsevent (~> 0.9.1)
   rspec

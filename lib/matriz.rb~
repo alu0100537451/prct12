@@ -455,13 +455,11 @@ def initialize(f,c,m)#Estructura de datos de la matriz densa
 
         end
 	
-	def encontrar
-	  #lista=Array.new
-	  self.filas.times do |i|				      								      
+	def encontrar	  
+	  self.filas.times do |i|
 	    self.columnas.times do |j|
 	      if (yield (self.matriz[i][j]))
-	          return i,j
-		
+	          return i,j		
 	      end
 	    end		
 	  end

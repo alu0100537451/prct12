@@ -356,7 +356,7 @@ attr_accessor :posx, :posy, :valor
                 s << "]"
         end
 
-        def max
+        def maximo
                 m = self.valor[0]
                 for i in (0...self.valor.size.to_i)
                                 if (self.valor[i]> m)
@@ -366,7 +366,7 @@ attr_accessor :posx, :posy, :valor
                 return m
         end
 
-        def min
+        def minimo
                 m = self.valor[0]
                 for i in (0...self.valor.size.to_i)
                                 if (self.valor[i]< m)
